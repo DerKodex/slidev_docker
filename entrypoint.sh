@@ -1,7 +1,5 @@
 #!/bin/sh
 
-npm config set registry https://registry.npm.taobao.org 
-
 if [ -f /slidev/slides.md ]; then
     if [ -d /slidev/node_modules ]; then
         npm update
